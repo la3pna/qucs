@@ -1,0 +1,37 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=-213,26,857,998,0.934853,0,0>
+  <Grid=10,10,0>
+  <DataSet=bc547_amp2.dat>
+  <DataDisplay=bc547_amp2.sch>
+  <OpenDisplay=1>
+  <Script=bc547_amp2.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect -60 511 622 421 3 #c0c0c0 1 10 1 0 2e+07 1e+08 1 -48.304 20 27.2291 1 -1 1 1 315 0 225 "" "" "">
+	<"dBs11" #0000ff 0 3 0 0 0>
+	<"dBs21" #ff0000 0 3 0 0 0>
+	  <Mkr 3.6117e+06 503 -447 3 0 0>
+	  <Mkr 3.6117e+06 503 -447 3 0 0>
+	<"dBs22" #ff00ff 0 3 0 0 0>
+	<"dBs12" #00ff00 0 3 0 0 0>
+  </Rect>
+  <Smith 610 290 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"S[1,1]" #0000ff 0 3 0 0 0>
+	<"S[2,2]" #ff0000 0 3 0 0 0>
+  </Smith>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,33 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=0,0,1040,912,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=op_dc_compensate.dat>
+  <DataDisplay=op_dc_compensate.sch>
+  <OpenDisplay=1>
+  <Script=op_dc_compensate.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 160 476 465 376 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"Pr1.Vt" #0000ff 0 3 0 0 0>
+	  <Mkr 0.00125023 351 -366 3 0 0>
+	  <Mkr 0.00077707 241 -93 3 0 0>
+  </Rect>
+  <Tab 700 260 300 200 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
+	<"Pr1.V" #0000ff 0 3 1 0 0>
+  </Tab>
+</Diagrams>
+<Paintings>
+</Paintings>

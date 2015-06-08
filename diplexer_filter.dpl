@@ -1,0 +1,36 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=-14,118,1200,701,0.958834,66,0>
+  <Grid=10,10,0>
+  <DataSet=diplexer_filter.dat>
+  <DataDisplay=diplexer_filter.sch>
+  <OpenDisplay=1>
+  <Script=diplexer_filter.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Smith 960 400 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"S[1,1]" #0000ff 0 3 0 0 0>
+	<"S[3,3]" #ff0000 0 3 0 0 0>
+	<"S[2,2]" #ff00ff 0 3 0 0 0>
+  </Smith>
+  <Rect 110 566 781 416 3 #c0c0c0 1 10 1 0 2e+07 1e+08 1 -167.383 100 15.2166 1 -1 1 1 315 0 225 "" "" "">
+	<"dBs12" #0000ff 0 3 0 0 0>
+	  <Mkr 3.97595e+06 294 -428 3 0 0>
+	  <Mkr 3.77756e+06 175 -300 3 0 0>
+	<"dBs13" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

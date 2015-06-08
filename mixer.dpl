@@ -1,0 +1,36 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=-310,30,1114,1293,0.455265,0,0>
+  <Grid=10,10,0>
+  <DataSet=mixer.dat>
+  <DataDisplay=mixer.sch>
+  <OpenDisplay=1>
+  <Script=mixer.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect -200 492 690 422 3 #c0c0c0 1 00 1 0 0.0001 0.001 1 -2 0.5 2 1 -1 0.2 1 315 0 225 "" "" "">
+	<"Pr1.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 551 493 516 423 3 #c0c0c0 1 00 1 0 1 1e+07 1 -0.0470261 0.1 0.517092 1 -1 0.2 1 315 0 225 "" "" "">
+	<"timefreq" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect -205 1197 1118 657 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"db" #0000ff 0 3 0 0 0>
+	  <Mkr 1.5002e+07 899 -662 3 0 0>
+	  <Mkr 4.998e+06 339 -662 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,22 @@
+# Qucs 0.0.18  C:/Users/Thomas/.qucs/dc_psu.sch
+
+BJT:Q2N3055_1 _net0 _net1 _net2 _net1 Type="npn" Is="4.66e-12" Nf="1" Nr="1" Ikf="0.25" Ikr="0" Vaf="100" Var="0" Ise="3.339e-11" Ne="1.5" Isc="5e-09" Nc="2" Bf="360" Br="2" Rbm="0.4" Irb="0.001" Rc="0.04" Re="0" Rb="3" Cje="5.802e-10" Vje="1.2" Mje="0.45" Cjc="2.121e-10" Vjc="0.75" Mjc="0.4" Xcjc="1" Cjs="0" Vjs="0.75" Mjs="0" Fc="0.5" Tf="8e-08" Xtf="1" Vtf="0" Itf="3" Tr="2.55e-06" Temp="26.85" Kf="0" Af="1" Ffe="1" Kb="0" Ab="1" Fb="1" Ptf="120" Xtb="1" Xti="3" Eg="1.11" Tnom="26.85" Area="1"
+BJT:TIP41C_1 _net3 _net1 _net0 _net1 Type="npn" Is="7.55826e-11" Nf="1.11221" Nr="1.5" Ikf="0.526814" Ikr="3.54059" Vaf="100" Var="1000" Ise="1e-8" Ne="2.18072" Isc="1e-8" Nc="1.63849" Bf="50" Br="26.0542" Rbm="0.1" Irb="0.1" Rc="0.0810556" Re="0.0162111" Rb="4.56157" Cje="1.93296e-10" Vje="0.4" Mje="0.259503" Cjc="1.09657e-10" Vjc="0.730921" Mjc="0.23" Xcjc="0.803085" Cjs="0" Vjs="0.75" Mjs="0.5" Fc="0.8" Tf="1e-8" Xtf="4.06972" Vtf="7.1157" Itf="0.001" Tr="9.01013e-8" Temp="26.85" Kf="0.0" Af="1.0" Ffe="1.0" Kb="0.0" Ab="1.0" Fb="1.0" Ptf="0.0" Xtb="0.0" Xti="3.0" Eg="1.11" Tnom="26.85" Area="1.0"
+BJT:BC557B_1 _net4 _net1 _net3 _net1 Type="pnp" Is="3.834e-14" Nf="1.008" Nr="1.005" Ikf="0.08039" Ikr="0.047" Vaf="21.11" Var="32.02" Ise="1.219e-14" Ne="1.528" Isc="2.852e-13" Nc="1.28" Bf="344.4" Br="14.84" Rbm="1" Irb="1e-06" Rc="0.5713" Re="0.6202" Rb="1" Cje="1.23e-11" Vje="0.6106" Mje="0.378" Cjc="1.084e-11" Vjc="0.1022" Mjc="0.3563" Xcjc="0.6288" Cjs="0" Vjs="0.75" Mjs="0.333" Fc="0.8027" Tf="5.595e-10" Xtf="3.414" Vtf="5.23" Itf="0.1483" Tr="1e-32" Temp="26.85" Kf="0" Af="1" Ffe="1" Kb="0" Ab="1" Fb="1" Ptf="0" Xtb="0" Xti="3" Eg="1.11" Tnom="26.85" Area="1"
+BJT:BC547BP_1 _net5 _net4 _net6 _net4 Type="npn" Is="1.8e-14" Nf="0.9955" Nr="1.005" Ikf="0.14" Ikr="0.03" Vaf="80" Var="12.5" Ise="5e-14" Ne="1.46" Isc="1.72e-13" Nc="1.27" Bf="400" Br="35.5" Rbm="0" Irb="0" Rc="0.25" Re="0.6" Rb="0.56" Cje="1.3e-11" Vje="0.75" Mje="0.33" Cjc="4e-12" Vjc="0.54" Mjc="0.33" Xcjc="1" Cjs="0" Vjs="0.75" Mjs="0" Fc="0.5" Tf="6.4e-10" Xtf="0" Vtf="0" Itf="0" Tr="5.072e-08" Temp="26.85" Kf="0" Af="1" Ffe="1" Kb="0" Ab="1" Fb="1" Ptf="0" Xtb="0" Xti="3" Eg="1.11" Tnom="26.85" Area="1"
+R:R2 _net4 _net1 R="68k Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R3 gnd _net6 R="1000 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+VProbe:Pr2 _net2 gnd
+Vdc:V1 _net1 gnd U="36 V"
+Eqn:Eqn1 y="-V1.I" Export="yes"
+R:R4 _net7 _net5 R="1000 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R1 _net6 _net3 R="6800 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+.DC:DC1 Temp="26.85" reltol="0.001" abstol="1 pA" vntol="1 uV" saveOPs="no" MaxIter="150" saveAll="no" convHelper="none" Solver="CroutLU"
+.SW:SW1 Sim="DC1" Type="lin" Param="vol" Start="0 V" Stop="5 V" Points="101"
+OpAmp:OP1 _net8 _net9 _net7 G="1e6" Umax="15 V"
+Vdc:V2 _net9 gnd U="vol"
+R:R7 gnd _net8 R="5000 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R6 _net8 _net2 R="33000 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R8 _net7 _net8 R="5000 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R5 gnd _net10 R="1000 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+IProbe:Pr1 _net2 _net10

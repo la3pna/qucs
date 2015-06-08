@@ -1,0 +1,10 @@
+Settings file, Qucs 0.0.17
+Position=-11,0
+Size=1357,706
+Font=Helvetica,12,-1,5,50,0,0,0,0,0
+Language=
+BGColor=#fffae1
+maxUndo=20
+Editor=C:\Program Files (x86)\Qucs\bin\qucsedit
+SyntaxColor=#a0a0a4,#ff0000,#0000ff,#800080,#ff00ff,#800000,#008080,#008080,#800000
+NodeWiring=0

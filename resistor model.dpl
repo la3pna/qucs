@@ -1,0 +1,32 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=-257,-214,930,576,0.855097,0,89>
+  <Grid=10,10,0>
+  <DataSet=resistor model.dat>
+  <DataDisplay=resistor model.sch>
+  <OpenDisplay=1>
+  <Script=resistor model.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect3D 690 400 200 200 3 #c0c0c0 1 00 1 0 2e+09 1e+10 1 -99945 500000 1.1e+06 1 -100088 500000 1.10001e+06 315 0 225 "" "" "">
+	<"dbs21" #0000ff 0 3 0 0 1>
+  </Rect3D>
+  <Rect -160 480 804 451 3 #c0c0c0 1 10 1 1e+06 1 1e+10 1 -86.5046 10 -3.55402 1 -1 0.2 1 315 0 225 "" "" "">
+	<"dbs21" #0000ff 0 3 0 0 0>
+	<"dbs43" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,30 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=-104,0,882,1100,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=lpf_500mc.dat>
+  <DataDisplay=lpf_500mc.sch>
+  <OpenDisplay=1>
+  <Script=lpf_500mc.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 0 626 815 546 3 #c0c0c0 1 10 1 1e+06 1 1e+10 1 -160 20 20 1 -1 0.2 1 315 0 225 "" "" "">
+	<"dBs21" #0000ff 0 3 0 0 0>
+	  <Mkr 5.02809e+08 643 -447 3 0 0>
+	<"dBs11" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,32 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=0,0,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=ra00hhf1_amp.dat>
+  <DataDisplay=ra00hhf1_amp.sch>
+  <OpenDisplay=1>
+  <Script=ra00hhf1_amp.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Smith 100 395 335 335 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"S[1,1]" #0000ff 0 3 0 0 0>
+	<"S[2,2]" #ff0000 0 3 0 0 0>
+  </Smith>
+  <Rect 490 250 240 160 3 #c0c0c0 1 10 1 0 2e+08 1e+09 1 -23.2717 10 1.84288 1 -1 1 1 315 0 225 "" "" "">
+	<"dbs21" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

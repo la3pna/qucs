@@ -1,0 +1,34 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=-242,-200,1054,1670,0.790922,0,363>
+  <Grid=10,10,0>
+  <DataSet=oscillator.dat>
+  <DataDisplay=oscillator.sch>
+  <OpenDisplay=1>
+  <Script=oscillator.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect -157 671 1154 591 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"Pr1.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Tab 80 40 300 200 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
+	<"Pr1.V" #0000ff 0 3 1 0 0>
+  </Tab>
+  <Rect -6 1258 1038 488 3 #c0c0c0 1 00 0 0 2.5e+06 1e+08 1 -1 0.2 1 1 -1 0.2 1 315 0 225 "" "" "">
+	<"Pr1.v" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

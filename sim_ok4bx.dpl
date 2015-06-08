@@ -1,0 +1,29 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=0,0,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=sim_ok4bx.dat>
+  <DataDisplay=sim_ok4bx.sch>
+  <OpenDisplay=1>
+  <Script=sim_ok4bx.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 210 443 465 343 3 #c0c0c0 1 00 1 3e+07 1 3e+08 1 -90.6293 20 8.23902 1 -1 0.5 1 315 0 225 "" "" "">
+	<"dBS21" #ff0000 0 3 0 0 0>
+	  <Mkr 1.29118e+08 300 -304 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,52 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=-86,-10,1066,786,0.894965,0,0>
+  <Grid=10,10,0>
+  <DataSet=zwischenbasis_amp.dat>
+  <DataDisplay=zwischenbasis_amp.sch>
+  <OpenDisplay=1>
+  <Script=zwischenbasis_amp.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 550 384 469 354 3 #c0c0c0 1 10 1 1e+06 1 1e+08 1 -444.255 100 55.3254 1 -1 0.5 1 315 0 225 "" "" "">
+	<"dBs11" #0000ff 0 3 0 0 0>
+	  <Mkr 1.01394e+07/6 306 -140 3 0 0>
+	  <Mkr 5.16924e+06/6 97 -155 3 0 0>
+	  <Mkr 2.03525e+06/4.2 132 -141 3 0 0>
+	<"dBs22" #ff0000 0 3 0 0 0>
+	  <Mkr 1.85583e+06/8.55 123 -266 3 0 0>
+	  <Mkr 1.85583e+06/3 123 -261 3 0 0>
+	<"dBs21" #ff00ff 0 3 0 0 0>
+	  <Mkr 4.67023e+06/8.25 217 -345 3 0 0>
+	  <Mkr 3.9191e+06/8.55 199 -276 3 0 0>
+	  <Mkr 1.52886e+06/8.4 103 -298 3 0 0>
+	  <Mkr 1.36859e+06/3 92 -362 3 0 0>
+	  <Mkr 1.35602e+06/4.05 91 -370 3 0 0>
+	  <Mkr 1.35602e+06/4.2 91 -371 3 0 0>
+  </Rect>
+  <Smith 40 388 358 358 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"S[1,1]" #0000ff 0 3 0 0 0>
+	  <Mkr 1.03761e+06/6 249 -295 3 0 0>
+	  <Mkr 7.00957e+06/6 273 -119 3 0 0>
+	  <Mkr 1e+08/6 -86 -107 3 0 0>
+	  <Mkr 3.46002e+07/3.9 249 -217 3 0 0>
+	<"S[2,2]" #ff0000 0 3 0 0 0>
+  </Smith>
+  <Tab 340 572 193 102 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 61 315 0 225 "" "" "">
+	<"V1.I" #0000ff 0 3 1 0 0>
+  </Tab>
+</Diagrams>
+<Paintings>
+</Paintings>

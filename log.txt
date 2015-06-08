@@ -1,0 +1,159 @@
+Output:
+-------
+
+Starting new simulation on ma 08. jun 2015 at 02:25:43:309
+
+creating netlist... done.
+project location: 
+modules to load: 0
+factorycreate.size() is 0
+factorycreate has registered:
+parsing netlist...
+checking netlist...
+checker notice, variable `V1.I' in equation `y' not yet defined
+netlist content
+      1 IProbe instances
+      4 BJT instances
+      1 DC instances
+      1 VProbe instances
+      8 R instances
+      1 OpAmp instances
+      1 SW instances
+      2 Vdc instances
+creating netlist...
+checker notice, variable `V1.I' in equation `y' not yet defined
+
+
+
+
+
+
+
+Simulation ended on ma 08. jun 2015 at 02:25:44:671
+Ready.
+
+
+
+
+Errors:
+-------
+
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+WARNING: Unphysical model parameter Nf = 0.9955 in BJT `BC547BP_1'
+WARNING: DC1: DC analysis failed, using fallback #1 (source stepping)
+

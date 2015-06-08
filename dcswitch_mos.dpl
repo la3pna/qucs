@@ -1,0 +1,43 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=0,50,1130,889,1,103,264>
+  <Grid=10,10,0>
+  <DataSet=dcswitch_mos.dat>
+  <DataDisplay=dcswitch_mos.sch>
+  <OpenDisplay=1>
+  <Script=dcswitch_mos.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Tab 220 289 339 219 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
+	<"Pr1.V" #0000ff 0 3 1 0 0>
+	<"Pr2.V" #0000ff 0 3 1 0 0>
+	<"Pr3.I" #0000ff 0 3 1 0 0>
+	<"Pr4.V" #0000ff 0 3 1 0 0>
+  </Tab>
+  <Rect 850 440 240 160 3 #c0c0c0 1 00 1 0 0.0002 0.001 1 -0.0447511 0.02 0.0040684 1 -1 1 1 315 0 225 "" "" "">
+	<"V2.It" #0000ff 0 3 0 0 0>
+	<"Pr2.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 850 690 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"Pr1.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 230 779 560 409 3 #c0c0c0 1 00 1 0.001 5e-05 0.00137111 1 -1.1955 2 13.1505 1 -1 0.2 1 315 0 225 "" "" "">
+	<"Pr1.Vt" #0000ff 0 3 0 0 0>
+	<"Pr4.Vt" #ff0000 0 3 0 0 0>
+	<"Pr3.It" #ff00ff 0 3 0 0 1>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

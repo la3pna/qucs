@@ -1,0 +1,38 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=-29,40,1684,1057,0.565388,0,0>
+  <Grid=10,10,0>
+  <DataSet=amp.dat>
+  <DataDisplay=amp.sch>
+  <OpenDisplay=1>
+  <Script=amp.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 90 481 519 401 3 #c0c0c0 1 00 1 0 0.005 0.05 1 -0.12 0.05 0.12 1 -1 0.2 1 315 0 225 "" "" "">
+	<"Pr1.Vt" #ff0000 3 3 0 0 0>
+	<"Pr2.Vt" #5500ff 3 3 0 0 0>
+  </Rect>
+  <Rect 80 955 519 395 3 #c0c0c0 1 10 1 1 1 1000 1 -20 20 110.715 1 -1 0.2 1 315 0 225 "" "" "">
+	<"dft_v2" #5500ff 3 3 0 0 0>
+  </Rect>
+  <Rect 690 973 947 413 3 #c0c0c0 1 10 1 1 1 3000 1 -69.9552 100 739.688 1 -1 0.2 1 315 0 225 "" "" "">
+	<"dft_v1" #ff0000 3 3 0 0 0>
+  </Rect>
+  <Tab 820 320 300 200 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
+	<"V1.I" #0000ff 0 3 1 0 0>
+  </Tab>
+</Diagrams>
+<Paintings>
+</Paintings>

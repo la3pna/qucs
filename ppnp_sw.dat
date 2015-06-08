@@ -1,0 +1,22 @@
+<Qucs Dataset 0.0.17>
+<indep Pr1.V 1>
+  +1.15286019468e+001
+</indep>
+<indep V1.I 1>
+  -1.17526833240e-001
+</indep>
+<indep _net0.V 1>
+  +1.11654299580e+001
+</indep>
+<indep _net1.V 1>
+  +1.15286019468e+001
+</indep>
+<indep _net2.V 1>
+  +1.20000000000e+001
+</indep>
+<indep _net4.V 1>
+  +7.39524749949e-001
+</indep>
+<indep _net3.V 1>
+  +1.77674865026e-002
+</indep>
